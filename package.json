@@ -1,0 +1,31 @@
+{
+  "publisher": "jankuca",
+  "name": "redyellowblack",
+  "version": "0.0.1",
+  "displayName": "Red & Yellow on Black",
+  "description": "Spacegray with Red and Yellow highlights",
+  "repository": "https://github.com/jankuca/redyellowblack",
+  "engines": {
+    "vscode": ">=1.0.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Red & Yellow on Spacegray Black",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Red & Yellow on Spacegray Black-color-theme.json"
+      }
+    ]
+  },
+  "scripts": {
+    "lint": "yarn prettier -w .",
+    "prepublishOnly": "yarn prettier -c ."
+  },
+  "devDependencies": {
+    "prettier": "2.3.0",
+    "vsce": "1.88.0"
+  }
+}

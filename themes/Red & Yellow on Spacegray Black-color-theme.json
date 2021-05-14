@@ -1,0 +1,12 @@
+{
+  "tokenColors": "./Red & Yellow on Black (SL).tmTheme",
+  "colors": {
+    "editor.background": "#2b303b",
+    "editorCursor.foreground": "#AAA",
+    "editor.foreground": "#DDD",
+    "editorWhitespace.foreground": "#FFFFFF40",
+    "editor.lineHighlightBackground": "#6666660F",
+    "editor.selectionBackground": "#4b505b"
+  },
+  "name": "Red & Yellow on Spacegray Black"
+}
